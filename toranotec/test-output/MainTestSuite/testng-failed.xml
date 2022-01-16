@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MainTestSuite]">
+  <test thread-count="5" name="SignIn(failed)">
+    <classes>
+      <class name="com.toranotec.test.SignInTest">
+        <methods>
+          <include name="initializeApplication"/>
+          <include name="tearDown"/>
+          <include name="verifySignInValidTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.toranotec.test.SignInTest -->
+    </classes>
+  </test> <!-- SignIn(failed) -->
+</suite> <!-- Failed suite [MainTestSuite] -->

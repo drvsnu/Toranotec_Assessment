@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MainTestSuite" duration-ms="68015" started-at="2022-01-16T17:27:21 IST" finished-at="2022-01-16T17:28:29 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="SignInTest.verifySignInInvalidTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.toranotec.test.SignInTest@7f9fcf7f]" name="verifySignInInvalidTest" class="com.toranotec.test.SignInTest"/>
+        <method signature="SignInTest.verifySignInValidTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.toranotec.test.SignInTest@7f9fcf7f]" name="verifySignInValidTest" class="com.toranotec.test.SignInTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="SignIn" duration-ms="68015" started-at="2022-01-16T17:27:21 IST" finished-at="2022-01-16T17:28:29 IST">
+      <class name="com.toranotec.test.SignInTest">
+        <test-method status="PASS" signature="initializeApplication()[pri:0, instance:com.toranotec.test.SignInTest@7f9fcf7f]" name="initializeApplication" is-config="true" duration-ms="28310" started-at="2022-01-16T17:26:53 IST" finished-at="2022-01-16T17:27:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeApplication -->
+        <test-method status="PASS" signature="verifySignInInvalidTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.toranotec.test.SignInTest@7f9fcf7f]" name="verifySignInInvalidTest" duration-ms="16194" started-at="2022-01-16T17:27:22 IST" data-provider="TORANOTEC_TC_001" finished-at="2022-01-16T17:27:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TORANOTEC_TC_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d.vishnu52]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vishnu@2022]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[That Microsoft account doesn't exist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInInvalidTest -->
+        <test-method status="PASS" signature="verifySignInInvalidTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.toranotec.test.SignInTest@7f9fcf7f]" name="verifySignInInvalidTest" duration-ms="7243" started-at="2022-01-16T17:27:38 IST" data-provider="TORANOTEC_TC_001" finished-at="2022-01-16T17:27:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TORANOTEC_TC_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d.vishnu5@outlook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vishnu@2022]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[That Microsoft account doesn't exist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInInvalidTest -->
+        <test-method status="PASS" signature="verifySignInInvalidTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.toranotec.test.SignInTest@7f9fcf7f]" name="verifySignInInvalidTest" duration-ms="30610" started-at="2022-01-16T17:27:46 IST" data-provider="TORANOTEC_TC_001" finished-at="2022-01-16T17:28:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TORANOTEC_TC_003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d.vishnu25@outlook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vishnu@2021]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your account or password is incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInInvalidTest -->
+        <test-method status="PASS" signature="verifySignInValidTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.toranotec.test.SignInTest@7f9fcf7f]" name="verifySignInValidTest" duration-ms="12654" started-at="2022-01-16T17:28:16 IST" data-provider="TORANOTEC_TC_002" finished-at="2022-01-16T17:28:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TORANOTEC_TC_004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d.vishnu25@outlook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vishnu@2022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInValidTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.toranotec.test.SignInTest@7f9fcf7f]" name="tearDown" is-config="true" duration-ms="765" started-at="2022-01-16T17:28:29 IST" finished-at="2022-01-16T17:28:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.toranotec.test.SignInTest -->
+    </test> <!-- SignIn -->
+  </suite> <!-- MainTestSuite -->
+</testng-results>
